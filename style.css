@@ -148,6 +148,7 @@ footer img{
 .displayWeb:hover{
     transform: scale(1.05);
     transition: 1.5s ease-in-out;
+    cursor: pointer;
 }
 .bold{
     font-weight: bold;
