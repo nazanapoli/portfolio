@@ -172,6 +172,8 @@ footer img{
     }
     .contenedorLinks{
         margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
     }
     .linkContacto{
         display: none;
@@ -181,6 +183,10 @@ footer img{
     }
     .displayWeb{
         display: none;
+    }
+    .miInfo{
+        display: flex;
+        flex-direction: column;
     }
   }
   @media (min-width: 768px)and (max-width: 1200px) {
@@ -205,5 +211,14 @@ footer img{
     }
     .displayWeb{
         display: none;
+    }
+    .contenedorLinks{
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .miInfo{
+        display: flex;
+        flex-direction: column;
     }
 }
